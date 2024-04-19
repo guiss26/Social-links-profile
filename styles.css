@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    display: grid;
+    place-items: center;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+}
+
+.card{
+    background-color: hsl(0, 0%, 12%);
+    padding: 50px;
+    border-radius: 3%;
+    text-align: center;
+    margin: 10% 0;
+}
+
+img{
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-weight: 500;
+    margin: 0 0 10px 0;
+}
+
+.subtitle{
+    color: hsl(75, 94%, 57%);
+    margin: 0 0 25px 0;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.sub2{
+    font-size: 12px;
+    padding: 0 20px;
+}
+.card button{
+    display: block;
+    margin: 10px 0;
+    padding: 10px 0;
+    width: 100%;
+    border-radius: 8px;
+    background-color: hsl(0, 0%, 20%);
+    border: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.card button a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+button:last-child{
+    margin-bottom: 0;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+
+button:hover a{
+    color: black
+}
+
+.attribution{
+    font-size: 11px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    padding: 20px 0;
+}
+
+.attribution a{
+    text-decoration: none;
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 375px) {
+    .card{
+        margin: 20% 20px;
+        padding: 25px;
+    }
+    .sub2{
+        margin-bottom: 20px;
+    }
+    .card button{
+        padding: 15px 0;
+        margin: 15px 0;
+    }
+}
